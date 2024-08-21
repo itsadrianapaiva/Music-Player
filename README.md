@@ -1,31 +1,51 @@
-# Music Player
+# **Music Player Documentation**
 
-## Overview
+## **Table of Contents**
+1. [Introduction](#introduction)
+2. [Features](#features)
+3. [Code Structure](#code-structure)
+4. [Functions Explanation](#functions-explanation)
+5. [Possible Improvements](#possible-improvements)
+6. [Credits](#credits)
 
-A simple web-based music player built with HTML, CSS, and JavaScript. It allows users to play, pause, and navigate through a playlist of songs.
+## **Introduction**
 
-## Features
+The Music Player is a web-based application that allows users to play, pause, and navigate through their music collection. Built with HTML, CSS, and JavaScript, it provides a simple and intuitive interface for managing and enjoying music tracks.
 
-- Play and pause music.
-- Skip to the next or previous song.
-- Responsive design.
+## **Features**
 
-## Installation
+- Play and pause music tracks.
+- Skip to the next or previous song in the playlist.
+- Responsive design for various screen sizes.
+- Basic playback controls and visual indicators.
 
-1. Clone the repository using `git clone <repository-url>`.
-2. Navigate to the project directory with `cd project-folder`.
-3. Open `index.html` in your web browser.
+## **Code Structure**
 
-## Usage
+- `index.html`: Contains the main structure of the application, including the playback controls and display elements.
+- `styles.css`: Provides the styling for the application, ensuring a clean and user-friendly interface.
+- `script.js`: Implements the core functionality, including play/pause controls, track navigation, and managing the playlist.
 
-- **Play/Pause**: Click the play/pause button to control playback.
-- **Next Song**: Click the next button to skip to the next song.
-- **Previous Song**: Click the previous button to go back to the previous song.
+## **Functions Explanation**
 
-## Code Overview
+### `playNextSong()`
+- **Purpose**: Advances to and plays the next song in the playlist.
 
-- `index.html`: Contains the structure of the application.
-- `styles.css`: Contains the styling for the application.
-- `script.js`: Contains the functionality for controlling playback.
+### `playPreviousSong()`
+- **Purpose**: Reverts to and plays the previous song in the playlist.
+
+### `getCurrentSongIndex()`
+- **Purpose**: Retrieves the index of the currently playing song.
+- **Return**: An integer representing the index of the current song.
 
 
+## **Possible Improvements**
+
+- **Add Playlist Management**: Allow users to create, edit, and manage playlists.
+- **Implement Search Functionality**: Enable users to search for specific tracks or artists.
+- **Add Visualizations**: Include visual elements like album art or progress bars.
+- **Enhance Accessibility**: Improve keyboard navigation and screen reader support.
+
+## **Credits**
+
+- **Developer**: Adriana Paiva
+- **Resources**: freeCodeCamp tutorials, Youtube videos, and JavaScript documentation
