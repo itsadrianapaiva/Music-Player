@@ -48,4 +48,4 @@ The Music Player is a web-based application that allows users to play, pause, an
 ## **Credits**
 
 - **Developer**: Adriana Paiva
-- **Resources**: freeCodeCamp tutorials, Youtube videos, and JavaScript documentation
+- **Resources**: freeCodeCamp tutorials, Youtube videos, and JavaScript documentation.
